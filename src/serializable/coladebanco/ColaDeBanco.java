@@ -12,6 +12,7 @@ Modificar la clase para usar Deque y que el metodo agregar, agregue las personas
 */
 public class ColaDeBanco implements Serializable {
     Deque<Persona> personasList = new LinkedList<>();
+    private static final long serialVersionUID = 5758418908108520916L;
 
     public ColaDeBanco(Deque<Persona> personasList) {
         this.personasList = personasList;

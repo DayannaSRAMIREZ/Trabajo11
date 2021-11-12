@@ -7,6 +7,8 @@ public class Persona implements Serializable {
     protected int dni;
     protected String nombre;
     protected int edad;
+    private static final long serialVersionUID = 5264544163974708855L;
+
 
     public Persona(int dni, String nombre, int edad) {
         this.dni = dni;
